@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 81, 255);
+  margin: 0;
+}
+
+.nav-section {
+  display: flex;
+  background-color: rgb(47, 100, 214);
+  justify-content: center;
+}
+
+.main-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.white-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  height: 200px;
+  margin: 20px 0;
+  background-color: #fff;
+  border: 2px transparent;
+  border-radius: 10px;
+}
+
+.message-dog {
+  width: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.add-doggo {
+  color: white;
+  border-style: none;
+  background-color: rgb(147, 74, 216);
+  height: 50%;
+  width: 50%;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.add-doggo:hover {
+  cursor: pointer;
+  background-color: rgb(121, 20, 214);
+}
+
+.add-doggo:active {
+  background-color: rgb(159, 42, 255);
+}
+
+.doggos {
+  display: flex;
+  flex-direction: column;
+}
+
+.dog-image-section {
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.dog-image {
+  width: 200px;
+  height: 200px;
+}
